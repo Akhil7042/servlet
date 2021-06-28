@@ -1,0 +1,90 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ListQuestions</servlet-name>
+  	<display-name>ListQuestions</display-name>
+  	<description></description>
+  	<servlet-class>com.sapient.controllers.ListQuestions</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ListQuestionsUser</servlet-name>
+  	<display-name>ListQuestionsUser</display-name>
+  	<description></description>
+  	<servlet-class>com.sapient.controllers.ListQuestionsUser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CreateQuestion</servlet-name>
+  	<display-name>CreateQuestion</display-name>
+  	<description></description>
+  	<servlet-class>com.sapient.controllers.CreateQuestion</servlet-class>
+  </servlet>
+ 
+  <servlet>
+  	<servlet-name>UpdateQuestion</servlet-name>
+  	<display-name>UpdateQuestion</display-name>
+  	<description></description>
+  	<servlet-class>com.sapient.controllers.UpdateQuestion</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>DeleteQuestion</servlet-name>
+  	<display-name>DeleteQuestion</display-name>
+  	<description></description>
+  	<servlet-class>com.sapient.controllers.DeleteQuestion</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ListQuestionAnswers</servlet-name>
+  	<display-name>ListQuestionAnswers</display-name>
+  	<description></description>
+  	<servlet-class>com.sapient.controllers.ListQuestionAnswers</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoadQuestion</servlet-name>
+  	<display-name>LoadQuestion</display-name>
+  	<description></description>
+  	<servlet-class>com.sapient.controllers.LoadQuestion</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ValidateAddition</servlet-name>
+  	<display-name>ValidateAddition</display-name>
+  	<description></description>
+  	<servlet-class>com.sapient.controllers.ValidateAddition</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ListQuestions</servlet-name>
+  	<url-pattern>/ListQuestions</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ListQuestionsUser</servlet-name>
+  	<url-pattern>/ListQuestionsUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CreateQuestion</servlet-name>
+  	<url-pattern>/CreateQuestion</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateQuestion</servlet-name>
+  	<url-pattern>/UpdateQuestion</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteQuestion</servlet-name>
+  	<url-pattern>/DeleteQuestion</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ListQuestionAnswers</servlet-name>
+  	<url-pattern>/ListQuestionAnswers</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoadQuestion</servlet-name>
+  	<url-pattern>/LoadQuestion</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ValidateAddition</servlet-name>
+  	<url-pattern>/ValidateAddition</url-pattern>
+  </servlet-mapping>
+</web-app>
